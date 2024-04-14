@@ -1,0 +1,56 @@
+* {
+background-color: black;
+align-items: center;
+font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-style: normal;
+}
+h1 {
+color: white;
+
+}
+p {
+  color: white;
+  
+}
+.pic {
+  
+
+  padding: 20px 40px;
+  text-align: center;
+ 
+  
+}
+.pic2 {
+  border: 5px solid white;
+  margin-top: 50px;
+  padding: 20px 40px;
+  width: 50%;
+  
+}
+/* Group */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* Child */
+.box > p {
+  color: firebrick;
+}
+
+/* Descendent */
+.box li {
+  color: blue;
+}
+
+/* Chained */
+li.done {
+  color: green;
+}
+
+/* Multiple Combiners */
+ul p.done {
+  font-size: 0.5rem;
+}
